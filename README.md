@@ -8,6 +8,9 @@
 <p>
 Цей проєкт базується на <a href="https://github.com/pratham-bhatnagar/Gesture-Volume-Control.git" target="_blank">Gesture Volume Control</a>, який був адаптований під малювання замість регулювання гучності.
 </p>
+<div align="center">
+  <img src="result.gif" alt="AirPaint Demo"/>
+</div>
   <hr style="border:none;border-top:1px solid #eee;margin:16px 0;">
 
   <h2 style="font-size:1.15rem;margin-bottom:6px;">Функціонал</h2>
@@ -58,7 +61,8 @@
   <h2>📝 Пояснення коду</h2>
 
   <b>Імпорт бібліотек</b>
-  <pre><code class="language-python">import cv2
+  <pre><code class="language-python">
+import cv2
 import mediapipe as mp
 import numpy as np
 import math
