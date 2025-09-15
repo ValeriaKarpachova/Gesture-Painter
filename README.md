@@ -92,7 +92,7 @@ brush_color = (0, 0, 255)
   <p> Хоча функція відображення точок на долонях була видалена для чистоти інтерфейсу, ці ключові точки все одно активно використовуються в коді.<br>
 </p>
 <div align="center">
-    <img alt="mediapipeLogo" src="img/hand_landmarks_docs.png" height="200 x    " />
+    <img alt="mediapipeLogo" src="hand_landmarks_docs.png" height="200 x    " />
 </div>
   <pre><code class="language-python">def fingers_up(hand_landmarks, h):
     tips = [4, 8, 12, 16, 20]
